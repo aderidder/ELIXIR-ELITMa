@@ -1,7 +1,10 @@
 ---
 title: ELITMa
 ---
-ELITMa logo
+
+
+<img src="{{site.baseurl}}/assets/img/main_logo.svg" alt="ELIXIR-ELITMa" class="size-small" />
+
 ## Empowering ELIXIR staff members
 The ELIXIR network has grown significantly in recent years, with several new Nodes and Communities joining. To effectively support the planning and delivery of Node activities such as coordination, training, service provision, infrastructure management, events and communication, it’s essential to empower new and existing ELIXIR members in growing their skills and capacities. Members also need easy access to key information, including clear onboarding pathways to participate in the wide range of activities across ELIXIR.
 
@@ -18,7 +21,7 @@ A comprehensive introduction to European and global research infrastructures, fo
 
 {% for module in site.data.modules %}
   <div class="module">
-    <h2>{{ module.title }}</h2>
+    <h3>{{ module.title }}</h3>
     <p>{{ module.description }}</p>
     <p><strong>Learning objectives:</strong></p>
     <ul>
