@@ -18,19 +18,10 @@ Current efforts focus on consolidating and rolling out existing modules, as well
 ## ELITMa module overview
 A comprehensive introduction to European and global research infrastructures, focusing on ELIXIR’s role and associated modules designed to enhance skills in various areas such as data management, strategic management, leadership and communication. Each module targets specific roles within ELIXIR Nodes, offering practical tools and best practices.
 
-
-{% for module in site.data.modules %}
-  <div class="module">
-    <h3>{{ module.title }}</h3>
-    <p>{{ module.description }}</p>
-    <p><strong>Learning objectives:</strong></p>
-    <ul>
-      {% for objective in module.objectives %}
-        <li>{{ objective }}</li>
-      {% endfor %}
-    </ul>
-    <p><strong>Delivery:</strong> {{ module.delivery }}</p>
-    <p><strong>Course leads:</strong> {{ module.leads }}</p>
-  </div>
-{% endfor %}
-
+<div class="gridlayout">
+  {% for module in site.data.modules %}
+    <div class="gridlayout-cell">
+        <span class="icon">{{ module.icon }}</span><a href="{{ module.url }}"><b>{{ module.title }}</b></a>
+    </div>
+  {% endfor %}
+</div>

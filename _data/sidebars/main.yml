@@ -2,7 +2,7 @@ subitems:
   - title: Home
     url: /index
   - title: Modules
-    url: /example_page
+    url: /modules
     subitems:
       - title: Module 1 - ELIXIR introduction and governance
         url: /modules/module1
