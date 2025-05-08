@@ -1,6 +1,6 @@
-- name: 
-  image_url: 
-  pid: 
+- name: Health-RI
+  image_url: assets/img/logos/healthri_transp.png
+  pid: ""
   expose: true
-  type: 
-  url: 
+  type: general
+  url: https://www.health-ri.nl/

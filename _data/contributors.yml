@@ -1,0 +1,9 @@
+writers:
+  - id: 13
+    firstName: Mijke
+    lastName: Jetten
+    orcid: 0000-0001-9114-2896
+    affiliation: ELIXIR-NL / Health-RI
+    active: true
+    image: mijke_jetten.png
+

@@ -1,0 +1,9 @@
+{% assign page_title = page.title | strip | downcase %}
+{% assign current_module = null %}
+
+{% for module in site.data.modules %}
+  {% assign module_title = module.title | strip | downcase %}
+  {% if module_title == page_title %}
+    {% assign current_module = module %}
+  {% endif %}
+{% endfor %}

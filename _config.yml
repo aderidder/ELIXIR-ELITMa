@@ -1,7 +1,7 @@
-title: Website title
+title: ELITMa
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Website title
+#topnav_title: Website title
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
 description: "Example of ELIXIR toolkit theme as a remote jekyll theme"
@@ -47,9 +47,9 @@ theme_variables:
   # toc:
   #   min_headings: 2
   #   headings: 'h2'
-  # topnav:
-    # theme: light
-    # brand_logo: assets/img/main_logo.svg
+   topnav:
+#     theme: light
+     brand_logo: assets/img/elixir-main.png
     # github: true
     # twitter: false
     # bluesky: false

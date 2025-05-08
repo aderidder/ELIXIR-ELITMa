@@ -1,7 +1,15 @@
 subitems:
   - title: Home
     url: /index
-  - title: Example page
+  - title: Modules
     url: /example_page
-
+    subitems:
+      - title: Module 1 - ELIXIR introduction and governance
+        url: /modules/module1
+      - title: Module 2 - Node data management strategy
+        url: /modules/module2
+  - title: Contributors
+    url: /contributing/contributors
+  - title: Network
+    url: /network
   
