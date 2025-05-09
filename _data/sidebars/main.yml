@@ -1,13 +1,16 @@
 subitems:
   - title: Home
     url: /index
-  - title: Modules
-    url: /modules
+  - title: Module 1 - ELIXIR introduction and governance
+    url: /modules/module1/main
     subitems:
-      - title: Module 1 - ELIXIR introduction and governance
-        url: /modules/module1
-      - title: Module 2 - Node data management strategy
-        url: /modules/module2
+      - title: Chapter 1
+        url: /modules/module1/chapter1
+  - title: Module 2 - Node data management strategy
+    url: /modules/module2/main
+    subitems:
+      - title: Chapter 1
+        url: /modules/module2/chapter1
   - title: Contributors
     url: /contributing/contributors
   - title: Network

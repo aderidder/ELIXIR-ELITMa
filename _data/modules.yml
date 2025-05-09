@@ -4,9 +4,13 @@
   objectives:
     - Understand the research infrastructure landscape and ELIXIR's role within it
     - Navigate and integrate ELIXIR features with national nodes
-  delivery: First course delivered in 2023. Next course scheduled for 2025
-  leads: Ana Teresa Freitas (ELIXIR Portugal), Ivana Versic (ELIXIR Hub)
-  url: modules/module1
+  delivery:
+    - First course delivered in 2023.
+    - Next course scheduled for 2025.
+  leads:
+    - Ana Teresa Freitas (ELIXIR Portugal)
+    - Ivana Versic (ELIXIR Hub)
+  url: modules/module1/main
 - id: module2
   title: Module 2 - Node data management strategy
   description: Designed for Node Coordinators and data stewards/managers, this module supports the development of robust data management strategies within ELIXIR Nodes, focusing on best practices from ELIXIR’s data management tools and services.
@@ -14,6 +18,11 @@
     - Navigate the ELIXIR data management portfolio
     - Consolidate the relevant tools and services in Nodes
     - Refine Node data management strategies for better data stewardship
-  delivery: First course delivered in 2023 in Finland. Next course scheduled for 19–22 May 2025 in Estonia
-  leads: Mijke Jetten (ELIXIR Netherlands), Celia van Gelder (ELIXIR Netherlands), Fabio Liberante (ELIXIR Hub), in collaboration with the ELIXIR RDM Community
-  url: modules/module2
+  delivery:
+    - First course delivered in 2023 in Finland.
+    - Next course scheduled for 19–22 May 2025 in Estonia
+  leads:
+    - Mijke Jetten (ELIXIR Netherlands)
+    - Celia van Gelder (ELIXIR Netherlands)
+    - Fabio Liberante (ELIXIR Hub), in collaboration with the ELIXIR RDM Community
+  url: modules/module2/main
